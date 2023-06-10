@@ -14,3 +14,10 @@ $ npm install remark remark-html
 ```
 To format the date, we’ll use the date-fns library. First, install it:
 npm install date-fns
+
+
+Local dev on wsl ubuntu 22 machine - http://localhost:3000/
+
+https://vercel.com/kaialogen/blog/deployments
+
+SEO - https://nextjs.org/learn/seo/introduction-to-seo

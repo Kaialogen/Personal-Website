@@ -2,13 +2,13 @@
    <xml version="1.0" encoding="UTF-8">
    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
         <url>
-            <loc>http://kaialogen.com</loc>
+            <loc>https://kaialogen.com</loc>
         </url>
         <url>
-            <loc>http://kaialogen.com/posts/building-this-website</loc>
+            <loc>https://kaialogen.com/posts/building-this-website</loc>
         </url>
         <url>
-            <loc>http://kaialogen.com/posts/test</loc>
+            <loc>https://kaialogen.com/posts/test</loc>
         </url>
    </urlset>
    </xml>

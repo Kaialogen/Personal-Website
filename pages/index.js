@@ -4,7 +4,6 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 import { getSortedPostsData } from '../lib/posts';
 import Date from '../components/date';
-import Script from 'next/script';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -38,11 +37,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
 
-        <Script 
-        src="https://tryhackme.com/badge/82876" 
-        strategy="lazyOnload" 
-        onLoad={() => console.log('Script loaded')} // this is optional and just for debugging
-      />
+      <img src="https://tryhackme-badges.s3.amazonaws.com/Kaialogen.png" alt="TryHackMe"></img>
 
       </section>
     </Layout>

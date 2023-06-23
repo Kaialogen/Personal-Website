@@ -3,12 +3,15 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
+import Navbar from './Navbar';
 
 const name = 'Ka1al0gen';
 export const siteTitle = 'Ka1al0gen';
 
 export default function Layout({ children, home }) {
   return (
+    <>
+     <Navbar /> 
     <div className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
@@ -57,5 +60,6 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
+  </>
   );
 }

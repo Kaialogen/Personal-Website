@@ -1,0 +1,33 @@
+/** Main Navbar CSS**/
+.navbar {
+    background-color:   #212225;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+  }
+  /** Deals with the ul element**/
+  .navList {
+    float: none;
+    list-style: none;
+    display: flex;
+  }
+  
+/** Deals with the li element**/ 
+  .navItem {
+    margin: 0 1rem;
+    display: inline;
+  }
+  
+  /** Text CSS, deals with a tags**/
+  .navLink {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    font-weight: bold;
+  }

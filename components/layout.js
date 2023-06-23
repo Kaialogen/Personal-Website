@@ -13,6 +13,7 @@ export default function Layout({ children, home }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta name="og:title" content={siteTitle} />
+        <meta name="description" content="Delve into the world of ethical hacking with my insightful blog. Discover the latest trends, tips, and experiences from a cybersecurity student." />
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
       </Head>

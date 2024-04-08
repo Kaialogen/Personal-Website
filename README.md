@@ -1,20 +1,17 @@
 # nextjs-blog
 
+To run the server
 ``` shell
 $ npm run dev
 ```
 
-Install gray-matter which lets us parse the metadata in each markdown file.
+Required Packages
 ``` shell
-$ npm install gray-matter
+gray-matter
+remark-html
+remark
+date-fns
 ```
-To render markdown content, we’ll use the remark library. First, let’s install it:
-``` shell
-$ npm install remark remark-html
-```
-To format the date, we’ll use the date-fns library. First, install it:
-npm install date-fns
-
 
 Local dev on wsl ubuntu 22 machine - http://localhost:3000/
 

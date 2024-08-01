@@ -12,6 +12,9 @@ remark-html
 remark
 date-fns
 ```
+https://nextjs.org/docs/messages/module-not-found
+
+
 
 Local dev on wsl ubuntu 22 machine - http://localhost:3000/
 

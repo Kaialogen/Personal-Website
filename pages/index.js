@@ -49,11 +49,11 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-        
-        {/* Badge from TryHackMe */}
-        <img src="https://tryhackme-badges.s3.amazonaws.com/Kaialogen.png" alt="TryHackMe"></img>
-        
       </section>
+
+      <footer>
+        <p>© Kaialogen 2024. Made by Humans, for Humans</p>
+      </footer>
     </Layout>
   );
 }
